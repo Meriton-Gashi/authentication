@@ -1,0 +1,100 @@
+.hidden {
+    display: none;
+}
+.h3titile{
+    color: red;
+}
+.divButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: red;
+    margin-right: 350px;
+    margin-bottom: 15px;
+}
+.buttonLogin{
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.buttonPhone{
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.buttonContact{   
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.div-main{
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+}
+fieldset {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.mainPage{
+    justify-content: center;   
+}
+
+.toggle-details {
+    color: blue; /* Ju mund ta ndryshoni ngjyrën sipas dëshirës */
+    text-decoration: underline;
+    cursor: pointer;
+}
+   
+.mainPage {
+    margin: auto;
+    max-width: 700px;
+    /* padding: 20px; */
+    border-radius: 8px;
+}
+
+
+.olClass {
+    list-style-type: none;
+    padding: 0;
+}
+
+.olClass li {
+    margin: 10px 0;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* background-color: #fff; */
+    position: relative;
+}
+
+.olClass li .toggle-details {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-details {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    /* background-color: #f9f9f9; */
+}
+
+.contact-details table {
+    width: 100%; /* Përdorim 100% të gjerësisë së brendshme */
+    border-collapse: collapse; /* Fshirja e hapësirave midis qelizave */
+    margin-top: 10px; /* Hapësira nga lart */
+}
+
+.contact-details th,
+.contact-details td {
+    /* border: 1px solid #dddddd; Kufijtë e qelizave */
+    padding: 8px; /* Hapësira përmbi dhe poshtë përmbajtjes */
+    text-align: left; /* Mbështetja e tekstit në të majtë */
+}
+
+.contact-details th {
+    background-color: #f2f2f2;
+}
+/* ------------------------------ */
